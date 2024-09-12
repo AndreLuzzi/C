@@ -1,6 +1,6 @@
 #include <stdio.h>
 
- void main(){
+ int main(){
     int n1,n2,soma;
     printf("Informe 2 numeros \n");
     printf("n1: ");
@@ -9,5 +9,7 @@
     scanf("%d",&n2);
     soma=(n1+n2);
     printf("Sua soma:%d",soma);
+
+    return 0;
 
 }
