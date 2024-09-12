@@ -9,7 +9,7 @@ int main() {
     printf("Quantos anos vc tem? \n");
     scanf("%d", &idade);
     dias = idade * 365;
-    printf("Nossa %s voce ja viveu %d dias", nome, dias);
+    printf("%s voce ja viveu %d dias", nome, dias);
     
     return 0;
 }
