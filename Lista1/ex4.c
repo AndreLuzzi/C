@@ -9,7 +9,7 @@
     printf("raio: ");
     scanf("%d", &raio);
     area = (PI * raio * raio);
-    printf("Area do Circulo:%d",area);
+    printf("Area do circulo:%d",area);
 
     return 0;
 }
