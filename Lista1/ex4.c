@@ -1,13 +1,14 @@
 #include <stdio.h>
-#include <math.h>
+
 
  int main(){
-    const double PI = M_PI;
+    float PI;
     int raio,area;
+    PI = 3.14;
     printf("Informe o raio do circulo \n");
     printf("raio: ");
     scanf("%d", &raio);
-    area=(PI * raio * raio);
+    area = (PI * raio * raio);
     printf("Area do Circulo:%d",area);
 
     return 0;

@@ -1,7 +1,7 @@
 #include <stdio.h>
 
  int main(){
-    float n1,n2,n3,p1,p2,p3,somap,media,mediaP;
+    float n1,n2,n3,p1,p2,p3,media;
     printf("Informe as 3 notas e os 3 pesos \n");
     printf("informe a nota 1: ");
     scanf("%f", &n1);
@@ -15,10 +15,8 @@
     scanf("%f", &n3); 
     printf("Informe o peso da nota 3: ");
     scanf("%f", &p3);
-    somap=(p1 + p2 + p3);
-    media=(n1 * p1 + n2 * p2 + n3 * p3);
-    mediaP=(media / somap);
-    printf("Sua media ponderada:%f",mediaP);
+    media=(n1 * p1 + n2 * p2 + n3 * p3) / (p1 + p2 + p3);
+    printf("Sua media ponderada:%f",media);
 
     return 0;
 
