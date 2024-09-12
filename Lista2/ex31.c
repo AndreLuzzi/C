@@ -7,7 +7,7 @@ int main() {
     scanf("%f", &peso);
     engor = (peso * 1.15);
     emag = (peso * 0.80);
-    printf("Se engordar ficara com %fKg e se emagrcer tera %fKg", engor, emag);
+    printf("Se engordar ficara com %fKg, e se emagrcer tera %fKg", engor, emag);
     
     return 0;
 }
