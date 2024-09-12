@@ -1,14 +1,15 @@
 #include <stdio.h>
 
 int main() {
-    int nome, idade, dias;
+    char nome;
+    int idade, dias;
     
     printf("Qual o seu nome? \n");
-    scanf("%d", &nome);
+    scanf("%s", &nome);
     printf("Quantos anos vc tem? \n");
     scanf("%d", &idade);
-    dias = (idade * 365);
-    printf("Nossa %d, voce ja viveu %d dias", nome, dias);
+    dias = idade * 365;
+    printf("Nossa %s voce ja viveu %d dias", nome, dias);
     
     return 0;
 }
