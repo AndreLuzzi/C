@@ -16,7 +16,7 @@
     printf("Informe o peso da nota 3: ");
     scanf("%f", &p3);
     somap=(p1 + p2 + p3);
-    media=(n1 * p1 + n2 * p2 + n3 * p3 / (p1 + p2 + p3));
+    media=(n1 * p1 + n2 * p2 + n3 * p3);
     mediaP=(media / somap);
     printf("Sua media ponderada:%f",mediaP);
 
