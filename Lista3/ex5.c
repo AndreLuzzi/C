@@ -12,5 +12,6 @@ int main() {
         total= numero+8;
     }
     printf("o resultado deu %d", total);
+
     return 0;
 }

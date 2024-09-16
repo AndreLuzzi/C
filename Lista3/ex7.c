@@ -1,18 +1,21 @@
 #include <stdio.h>
 
 int main() {
-    int sexo, peso;
+    char sexo;
+    float altura,peso;
 
-    printf("digite seu sexo ");
-    scanf("%d", &sexo);
-    printf("digite seu peso ");
-    scanf("%d", &peso);
-    if (sexo == ){
-        total= A + B;
-    } 
-    else{
-        total= A * B;
+    printf("digite sua altura ");
+    scanf("%f", &altura);
+    printf("digite seu sexo (M para Masculino ou F para Feminino) ");
+    scanf("%s", &sexo);
+    if (sexo == 'M'){
+         peso = (72.7 * altura) - 58;
     }
-    printf("O resultado e %d", total);
+    else if (sexo == 'F'){
+         peso = (62.1 * altura) - 44.7;
+    }
+
+    printf("Seu peso ideal seria %fKg", peso);
+    
     return 0;
 }

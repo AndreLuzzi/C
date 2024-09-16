@@ -14,5 +14,6 @@ int main() {
         total= A * B;
     }
     printf("O resultado e %d", total);
+    
     return 0;
 }
