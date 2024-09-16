@@ -5,10 +5,9 @@ int main() {
     int idade;
 
     printf("Digite o seu nome:\n");
-    scanf("%c", &nome);
+    scanf("%s", &nome);
     printf("Digite a sua idade:\n");
     scanf("%d", &idade);
-
     if (idade >= 5 && idade <= 10) {
         printf("Categoria: Infantil\n");
     } 
@@ -18,7 +17,7 @@ int main() {
     else if (idade >= 16 && idade <= 20) {
         printf("Categoria: Junior\n");
     } 
-    else (idade >= 21 && idade <= 25) {
+    else if (idade >= 21 && idade <= 25) {
         printf("Categoria: Profissional\n");
     }
 
