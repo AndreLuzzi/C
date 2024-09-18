@@ -16,15 +16,15 @@ int main() {
     } 
     else if (tcalculo == 102) {
         resultado = numero/2;
-        printf("A metade do seu numero e: %f\n", resultado);
+        printf("A metade do seu numero e: %.2f\n", resultado);
     } 
     else if (tcalculo == 103) {
         resultado = numero * 0.10;
-        printf("10 porcento do seu numero e: %f\n", resultado);
+        printf("10 porcento do seu numero e: %.2f\n", resultado);
     } 
     else if (tcalculo == 104) {
         resultado = numero * 2;
-        printf("O dorbro do seu numero e: %f\n", resultado);
+        printf("O dorbro do seu numero e: %.2f\n", resultado);
     }
 
     return 0;
