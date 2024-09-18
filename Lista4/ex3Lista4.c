@@ -2,9 +2,9 @@
 
 int main() {
 
-    int opcao;
+    int menu;
 
-    printf("Bom dia!! Selecione o tipo do pagamento:\n 1-Venda a vista\n 2-Venda a Prazo 30 dias\n 3-Venda a Prazo 60 dias\n 4-Venda a Prazo com 90 dias\n 5-Venda com cartão de débito\n 6-Venda com cartao de credito");
+    printf("Bom dia!! Selecione o tipo do pagamento:\n 1-Venda a vista\n 2-Venda a Prazo 30 dias\n 3-Venda a Prazo 60 dias\n 4-Venda a Prazo com 90 dias\n 5-Venda com cartao de debito\n 6-Venda com cartao de credito\n");
     scanf("%d", &menu);
 
     if (menu == 1) {
@@ -20,10 +20,10 @@ int main() {
         printf("Voce escolheu a opcao 4-Venda a Prazo com 90 dias:\n");
     }
     else if (menu == 5) {
-        printf("Voce escolheu a opcao 5-Venda com cartão de débito:\n");
+        printf("Voce escolheu a opcao 5-Venda com cartao de debito:\n");
     }
     else if (menu == 6) {
-        printf("Voce escolheu a opcao 6-Venda com cartão de crédito:\n");
+        printf("Voce escolheu a opcao 6-Venda com cartao de credito:\n");
     }
 
     return 0;
