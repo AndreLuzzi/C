@@ -5,7 +5,7 @@ void main(){
     int i = 1;
     int maiores;
 
-    while (i <= 5) { 
+    while (i <= 20) { 
         printf("Digite o numero %d\n",i);
         scanf("%d", &numero);
 

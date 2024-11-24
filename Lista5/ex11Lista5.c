@@ -3,20 +3,20 @@
 void main(){
     int numero;
     int i = 1;
-    int maiores;
+    int pares;
 
-    while (i <= 5) { 
+    while (i <= 20) { 
         printf("Digite o numero %d\n",i);
         scanf("%d", &numero);
 
         i++;
 
-        if (numero > 8){
-        maiores++;
+        if (numero % 2 == 0){
+        pares++;
         }
     }
 
-     printf("Total de numeros maiores que 8: %d\n", maiores);
+     printf("Total de numeros que sao pares: %d\n", pares);
     
     return 0;
 }
