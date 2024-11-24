@@ -6,7 +6,7 @@ void main(){
     int soma = 0;
 
     while (i <= 20) { 
-        printf("Digite a idades %d\n",i);
+        printf("Digite a idade %d\n",i);
         scanf("%d", &idade);
 
         soma += idade;
