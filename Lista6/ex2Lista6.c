@@ -27,10 +27,10 @@ int main() {
     }
 
     printf("\nResultados:\n");
-    printf("Quantos números pares: %d\n", pares);
-    printf("Quantos números ímpares: %d\n", impares);
-    printf("Quantos números maiores que 50: %d\n", maioresQue50);
-    printf("Quantos números menores que 7: %d\n", menoresQue7);
+    printf("Quantos numeros pares: %d\n", pares);
+    printf("Quantos numeros ímpares: %d\n", impares);
+    printf("Quantos numeros maiores que 50: %d\n", maioresQue50);
+    printf("Quantos numeros menores que 7: %d\n", menoresQue7);
 
     return 0;
 }
